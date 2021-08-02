@@ -20,7 +20,7 @@
 
 
         <div class="row">
-            <div class="col-4">
+            <div class="col col-md-3">
 
                 <div class="card">
                     <h3 class="card-header text-uppercase">Search for a City: </h3>
@@ -28,7 +28,7 @@
 
                         <input name="search" id="searchCity" type="text" class="form-input input-group mb-3" />
 
-                        <button type="submit" class="btn btn-primary" id="searchBtn">Search</button>
+                        <button type="submit" class="btn-primary" id="searchBtn">Search</button>
 
                     </form>
 
@@ -36,7 +36,7 @@
 
                 <hr>
 
-                <div>
+                <div id="historyButtons">
                     <!--div for dynamic history buttons-->
                 </div>
             </div>
@@ -44,24 +44,37 @@
 
 
 
-            <div class="col-8">
+            <div class="col col-md-8">
 
-                <div>
+                <div class="container main">
                     <!--div for display-->
+                    <div class="col" id="boldData"><b></b></div>
+                    <div class="col" id="tempMain"></div>
+                    <br>
+                    <div class="col" id="windMain"></div>
+                    <br>
+                    <div class="col" id="humidMain"></div>
+                    <br>
+                    <span class="col" id="uvMain"></span>
                 </div>
 
+                <div class="col">
+                    <div class="container">
+                        <div class="row" id="forcast">
 
-                <div>
-                    <!--div for 5 day forcast-->
+                            <!--div for 5 day forcast-->
+
+
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
 
     </main>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

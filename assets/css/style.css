@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#4169e1, #8641E1);
+    padding: 15px;
+    color: aliceblue;
+}
+
+#forcast{
+    justify-content: space-between;
+}
+.fBlock{
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+  }
+  .yellow{
+    background-color: yellow;
+    color: white;
+  }
+  .red{
+    background-color: red;
+    color: white;
+  }
+
+  .mainDisplay{
+      border: solid 5px black;
+      margin: 25px;
+      padding: 15px;
+  }
+  .bold{
+      font-weight: bold;
+      font-size: large;
+  }
+  .color{
+      padding:  15px;
+  }
+#searchBtn,.buttons{
+    width: 100%;
+    border-radius: 10px;
+}
