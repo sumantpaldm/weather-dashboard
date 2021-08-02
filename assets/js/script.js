@@ -101,7 +101,7 @@ var getMainData = function (lat, log, cityName) {
                 forcastBlock.classList.add("fBlock")
                 forcastBlock.classList.add("col")
 
-                $(forcastBlock).append((data.daily[i].dt));
+                $(forcastBlock).append(appDate(data.daily[i].dt));
                 $(forcastBlock).append(`<img src="https://openweathermap.org/img/w/${data.daily[i].weather[0].icon}.png"/>`);
                 $(forcastBlock).append("<p>Temp: " + data.daily[i].temp.day + " °F</p>");
                 $(forcastBlock).append("<p>Wind: " + data.daily[i].wind_speed + " MPH</p>");
