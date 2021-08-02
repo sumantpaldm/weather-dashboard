@@ -39,9 +39,10 @@ header {
       font-size: large;
   }
   .color{
-      padding:  15px;
+      padding:  8px 25px;
+      border-radius: 10px;
   }
 #searchBtn,.buttons{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
